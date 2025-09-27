@@ -22,7 +22,8 @@ if [ "$#" -ne 1 ]; then
 fi
 
 if grep -q 'BUILD FAILURE' $1 ; then
-    echo "Build failure detected, please inspect build log"
+    echo "Build failure detected, please inspect build log:"
+    cat $1
     exit 1
 else
     echo "Build successful"
