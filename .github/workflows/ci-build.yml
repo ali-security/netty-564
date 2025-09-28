@@ -83,5 +83,4 @@ jobs:
         with:
           name: target
           path: |
-            **/target/*.jar
             /extracted-jars/**/*.jar
