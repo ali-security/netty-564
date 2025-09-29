@@ -35,7 +35,7 @@ public final class HttpDecoderConfig implements Cloneable {
     private int maxHeaderSize = HttpObjectDecoder.DEFAULT_MAX_HEADER_SIZE;
     private int initialBufferSize = HttpObjectDecoder.DEFAULT_INITIAL_BUFFER_SIZE;
     private boolean strictLineParsing = HttpObjectDecoder.DEFAULT_STRICT_LINE_PARSING;
-    
+
     public int getInitialBufferSize() {
         return initialBufferSize;
     }
